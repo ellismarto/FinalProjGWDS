@@ -3,6 +3,7 @@ body{
 }
 
 header{
+    flex: auto;
     padding: 30px 40px;
 }
 
@@ -12,7 +13,7 @@ ul{
 
 
 button{
-    color: antiquewhite;
+    color: #faebd7;
     background-color: transparent;
     border: 0px;
     font-size: 15px;
@@ -59,3 +60,4 @@ p{
     margin: 0px;
     font-size: 12px;
 }
+
