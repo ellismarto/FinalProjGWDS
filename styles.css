@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    padding: 30px 90px;
+    padding: 30px 40px;
 }
 
 ul{
@@ -36,13 +36,26 @@ button:hover{
     margin-left: auto;
 }
 
-h1{
+.text-box{
     top: 50%;
     bottom: 50%;
     position: absolute;
     transform: translate(0%,-50%);
     color: antiquewhite;
     padding-left: 70px;
-    font-size: 70px;
     font-family: urbane-rounded, sans-serif;
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 70px;
+}
+
+p{
+    margin: 0px;
+    font-size: 12px;
 }
