@@ -2,12 +2,47 @@ body{
     background-color: #2d2533;
 }
 
-h1{
-    color: antiquewhite;
+header{
+    padding: 30px 90px;
 }
+
+ul{
+    padding-inline-start: 0px;
+}
+
 
 button{
     color: antiquewhite;
     background-color: transparent;
     border: 0px;
+    font-size: 15px;
+    padding: 8px 30px;
+    font-family: urbane-rounded, sans-serif;
+    font-style: normal;
+}
+
+button:hover{
+    
+}
+
+.navigation-menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.push{
+    margin-left: auto;
+}
+
+h1{
+    top: 50%;
+    bottom: 50%;
+    position: absolute;
+    transform: translate(0%,-50%);
+    color: antiquewhite;
+    padding-left: 70px;
+    font-size: 70px;
+    font-family: urbane-rounded, sans-serif;
 }
