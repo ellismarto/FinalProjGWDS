@@ -23,6 +23,7 @@ button{
     font-size: 15px;
     padding: 8px 30px;
     font-family: urbane-rounded, sans-serif;
+    font-weight: 500;
     font-style: normal;
     transition: 0.5s;
 }
@@ -35,6 +36,13 @@ button:hover{
 
 .push{
     margin-left: auto;
+}
+
+.bold{
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a88ebc;
 }
 
 /* Website */
@@ -51,15 +59,32 @@ body{
     color: antiquewhite;
     padding-left: 70px;
     font-family: urbane-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     margin-top: -50px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
 }
 
+.carp-text{
+    text-align: center;
+    transform: translate(47.5%,-170%);
+    margin-top: 0px;
+}
+
 h1{
     margin: 0px;
     font-size: 70px;
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2{
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 p{
@@ -79,6 +104,8 @@ footer{
     text-align: center;
     vertical-align: middle;
     font-family: urbane-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: antiquewhite;
     width: 100%;
     padding-top: 5px;
