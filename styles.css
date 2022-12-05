@@ -1,6 +1,4 @@
-body{
-    background-color: #2d2533;
-}
+/* Header */
 
 header{
     flex: auto;
@@ -11,6 +9,12 @@ ul{
     padding-inline-start: 0px;
 }
 
+.navigation-menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
 button{
     color: #faebd7;
@@ -25,18 +29,18 @@ button{
 
 button:hover{
     color: #6f5d7d;
+    font-size: 14px;
     transition: 0.5s;
-}
-
-.navigation-menu{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
 .push{
     margin-left: auto;
+}
+
+/* Website */
+
+body{
+    background-color: #2d2533;
 }
 
 .text-box{
@@ -63,3 +67,24 @@ p{
     font-size: 12px;
 }
 
+.welcome-page{
+    min-height: 94vh;
+    width: 100%;
+}
+
+/* Footer */
+
+footer{
+    background-color: #6f5d7d;
+    text-align: center;
+    vertical-align: middle;
+    font-family: urbane-rounded, sans-serif;
+    color: antiquewhite;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer p{
+    font-size: 10px;
+}
