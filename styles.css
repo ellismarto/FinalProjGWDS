@@ -67,10 +67,14 @@ body{
     margin-bottom: 0px;
 }
 
-.carp-text{
+.text-box-small{
+    align-items: center;
     text-align: center;
-    transform: translate(47.5%,-170%);
-    margin-top: 0px;
+    justify-content: center;
+    color: antiquewhite;
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 h1{
@@ -85,6 +89,8 @@ h2{
     font-family: urbane-rounded, sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 40px;
+    margin: 0px;
 }
 
 p{
