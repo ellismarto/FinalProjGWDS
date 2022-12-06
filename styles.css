@@ -49,6 +49,8 @@ button:hover{
 
 body{
     background-color: #2d2533;
+    margin: 0px;
+    padding: 0px;
 }
 
 .text-box{
@@ -99,8 +101,9 @@ p{
 }
 
 .welcome-page{
-    min-height: 94vh;
+    min-height: 96vh;
     width: 100%;
+    background-image: url(images/solen-feyissa-FJBjDpYBhig-unsplash.jpg);
 }
 
 /* Footer */
