@@ -77,6 +77,7 @@ body{
     font-family: urbane-rounded, sans-serif;
     font-weight: 500;
     font-style: normal;
+    padding-top: 50px;
 }
 
 .row{
@@ -86,6 +87,7 @@ body{
     justify-content: center;
     align-content: flex-end;
     text-align: center;
+    padding-top: 30px;
 }
 
 .column{
@@ -125,6 +127,10 @@ p{
     min-height: 100vh;
     width: 100%;
     background-image: url(images/solen-feyissa-FJBjDpYBhig-unsplash.jpg);
+}
+
+.page{
+    background-color: #2d2533;
 }
 
 /* Footer */
