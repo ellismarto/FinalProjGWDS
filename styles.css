@@ -110,14 +110,6 @@ body{
     text-decoration: overline;
 }
 
-.caption{
-    color: antiquewhite;
-    font-family: urbane-rounded, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    padding-top: 20px;
-}
-
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -149,28 +141,27 @@ body{
     padding-top: 0px;
 }
 
-/*.hide{
-    position: absolute;
-    font-size: 80%;
-    top: 45%;
-    left: 50%;
-    transform: translate(-825%,50%);
+.caption{
     display: none;
-    text-align: center;
+    position: absolute;
+    color: antiquewhite;
+    font-family: urbane-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.myIMG:hover + .hide{
+.myIMG:hover + .caption{
     display: block;
-}*/
+}
 
 .myIMG:hover{
-    transform: scale(1.05);
+    opacity: 0.1;
 }
 
 .myIMG{
     text-align: center;
     position: relative;
-    transition: transform .5s ease;
+    transition: opacity .5s ease;
 }
 
 .myIMG-html:hover{
@@ -204,9 +195,11 @@ body{
     margin-bottom: auto;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     width: 325px;
     margin-bottom: 50px;
+    align-content: center;
+    justify-content: center;
 }
 
 .html-column{
