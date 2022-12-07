@@ -89,6 +89,13 @@ body{
     font-weight: 500;
     font-style: normal;
     padding-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.refl-text{
+    text-align: justify;
+    font-size: 16px;
 }
 
 .text-box-html{
@@ -104,6 +111,16 @@ body{
 }
 
 .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-end;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.typo-row{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -158,6 +175,20 @@ body{
 }
 
 .column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 75%;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.img-text-box{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
