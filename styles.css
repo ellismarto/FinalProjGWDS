@@ -148,7 +148,9 @@ body{
     font-family: urbane-rounded, sans-serif;
     font-weight: 500;
     font-style: normal;
+    width: 250px;
 }
+
 
 .myIMG:hover + .caption{
     display: block;
@@ -156,12 +158,13 @@ body{
 
 .myIMG:hover{
     opacity: 0.1;
+    transform: scale(1.10);
 }
 
 .myIMG{
     text-align: center;
     position: relative;
-    transition: opacity .5s ease;
+    transition: opacity .5s ease, transform .5s ease;
 }
 
 .myIMG-html:hover{
@@ -243,6 +246,13 @@ h2{
     margin: 0px;
 }
 
+h3{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
 p{
     margin: 0px;
     font-size: 12px;
@@ -255,14 +265,6 @@ p{
     padding: 10px;
     border-radius: 15px;
 }
-
-/*.html-p{
-    margin: 0px;
-    color: antiquewhite;
-    font-family: urbane-rounded, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}*/
 
 .welcome-page{
     min-height: 100vh;
